@@ -1,0 +1,12 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "JSON Server Api for production like environment",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
