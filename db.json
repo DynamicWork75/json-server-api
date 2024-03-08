@@ -43,6 +43,14 @@
           "comment": "High temperature detected",
           "activities": [
             {
+              "activityName": "Weather Details",
+              "tasks": [
+                {
+                  "title": "Enter Weather Details"
+                }
+              ]
+            },
+            {
               "activityName": "Sensor Inspection",
               "tasks": [
                 {
@@ -51,7 +59,7 @@
                 },
                 {
                   "title": "Reading(s)",
-                  "status": "InProgress"
+                  "status": "completed"
                 }
               ]
             },
@@ -61,6 +69,15 @@
                 {
                   "title": "Review Items",
                   "status": ""
+                }
+              ]
+            },
+            {
+              "activityName": "Weather Details",
+              "tasks": [
+                {
+                  "title": "Enter Weather Details",
+                  "status": "active"
                 }
               ]
             }
@@ -227,6 +244,174 @@
           "comment": "This task needs some more work to do"
         }
       ]
+    }
+  ],
+  "equipments": [
+    {
+      "id": 1,
+      "status": "S",
+      "method": "Calib Electric Tape",
+      "serialNumber": "RPO-ET-300-23",
+      "manu": "Unspecified",
+      "hifId": 270030,
+      "office": "Recent",
+      "calDate": "2024-01-16T03:45:00",
+      "tapeLength": "Unspecified",
+      "methodCode": "AQ208WLCET"
+    },
+    {
+      "id": 2,
+      "status": "P",
+      "method": "Quality Check",
+      "serialNumber": "RPO-ET-300-23",
+      "manu": "ABC Corp",
+      "hifId": 270031,
+      "office": "Main",
+      "calDate": "2024-02-20T09:30:00",
+      "tapeLength": "15 meters",
+      "methodCode": "QC309ET"
+    },
+    {
+      "id": 3,
+      "status": "F",
+      "method": "Visual Inspection",
+      "serialNumber": "RPO-ET-300-23",
+      "manu": "XYZ Ltd",
+      "hifId": 270032,
+      "office": "Warehouse",
+      "calDate": "2024-03-10T14:15:00",
+      "tapeLength": "20 meters",
+      "methodCode": "VI502WLET"
+    },
+    {
+      "id": 4,
+      "status": "S",
+      "method": "Calib Electric Tape",
+      "serialNumber": "RPO-ET-300-23",
+      "manu": "Unspecified",
+      "hifId": 270033,
+      "office": "Recent",
+      "calDate": "2024-04-05T11:00:00",
+      "tapeLength": "Unspecified",
+      "methodCode": "AQ208WLCET"
+    },
+    {
+      "id": 5,
+      "status": "P",
+      "method": "Quality Check",
+      "serialNumber": "RPO-ET-300-23",
+      "manu": "ABC Corp",
+      "hifId": 270034,
+      "office": "Main",
+      "calDate": "2024-05-22T08:45:00",
+      "tapeLength": "18 meters",
+      "methodCode": "QC309ET"
+    },
+    {
+      "id": 6,
+      "status": "F",
+      "method": "Visual Inspection",
+      "serialNumber": "RPO-ET-300-23",
+      "manu": "XYZ Ltd",
+      "hifId": 270035,
+      "office": "Warehouse",
+      "calDate": "2024-06-15T13:30:00",
+      "tapeLength": "22 meters",
+      "methodCode": "VI502WLET"
+    },
+    {
+      "id": 7,
+      "status": "S",
+      "method": "Calib Electric Tape",
+      "serialNumber": "RPO-ET-300-23",
+      "manu": "Unspecified",
+      "hifId": 270036,
+      "office": "Recent",
+      "calDate": "2024-07-01T10:20:00",
+      "tapeLength": "Unspecified",
+      "methodCode": "AQ208WLCET"
+    }
+  ],
+  "measurementPoint": [
+    {
+      "id": 1,
+      "name": "MP-3 Height",
+      "validSince": "2024-01-16T03:45:00",
+      "elevation": "0.38",
+      "description": "Unspecified design of this",
+      "refernceDatum": "Lorem",
+      "isPrimary": false,
+      "dateDecommissioned": "2024-02-28T12:00:00"
+    },
+    {
+      "id": 2,
+      "name": "LP-7 Depth",
+      "validSince": "2024-02-20T09:30:00",
+      "elevation": "-0.25",
+      "description": "Depth measurement point",
+      "refernceDatum": "Ipsum",
+      "isPrimary": true,
+      "dateDecommissioned": "2024-04-15T14:30:00"
+    },
+    {
+      "id": 3,
+      "name": "RP-5 Position",
+      "validSince": "2024-03-10T14:15:00",
+      "elevation": "1.10",
+      "description": "Positional reference",
+      "refernceDatum": "Dolor",
+      "isPrimary": false,
+      "dateDecommissioned": "2024-06-30T18:45:00"
+    },
+    {
+      "id": 4,
+      "name": "EP-2 Altitude",
+      "validSince": "2024-04-05T11:00:00",
+      "elevation": "2.75",
+      "description": "Altitude reference point",
+      "refernceDatum": "Sit Amet",
+      "isPrimary": true,
+      "dateDecommissioned": "2024-07-15T08:00:00"
+    },
+    {
+      "id": 5,
+      "name": "BP-6 Benchmark",
+      "validSince": "2024-05-22T08:45:00",
+      "elevation": "0.50",
+      "description": "Benchmark for measurements",
+      "refernceDatum": "Consectetur",
+      "isPrimary": false,
+      "dateDecommissioned": "2024-08-10T10:20:00"
+    },
+    {
+      "id": 6,
+      "name": "HP-4 Height",
+      "validSince": "2024-06-15T13:30:00",
+      "elevation": "1.80",
+      "description": "Height reference marker",
+      "refernceDatum": "Adipiscing",
+      "isPrimary": true,
+      "dateDecommissioned": "2024-09-05T11:30:00"
+    },
+    {
+      "id": 7,
+      "name": "WP-1 Water Level",
+      "validSince": "2024-07-01T10:20:00",
+      "elevation": "-0.10",
+      "description": "Water level measurement point",
+      "refernceDatum": "Elit",
+      "isPrimary": false,
+      "dateDecommissioned": "2024-10-20T16:15:00"
+    },
+    {
+      "id": 8,
+      "name": "SP-9 Survey Marker",
+      "validSince": "2024-08-12T16:45:00",
+      "elevation": "2.20",
+      "description": "Survey marker for geodetic purposes",
+      "refernceDatum": "Sed Do",
+      "isPrimary": true,
+      "dateDecommissioned": "2024-11-30T20:45:00"
     }
   ]
 }
