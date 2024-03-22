@@ -1,33 +1,5 @@
 {
-  "measurements": [
-    {
-      "id": 1,
-      "createdTime": "2023-11-22T12:30:00Z",
-      "updatedTime": "2023-11-22T15:45:00Z",
-      "levelBelowMp": 5,
-      "status": "active",
-      "method": "post",
-      "comment": "This is a sample comment for item 1"
-    },
-    {
-      "id": 2,
-      "createdTime": "2023-11-22T13:45:00Z",
-      "updatedTime": "2023-11-22T16:20:00Z",
-      "levelBelowMp": 8,
-      "status": "inactive",
-      "method": "put",
-      "comment": "Another sample comment for item 2"
-    },
-    {
-      "id": 3,
-      "createdTime": "2023-11-22T14:15:00Z",
-      "updatedTime": "2023-11-22T17:30:00Z",
-      "levelBelowMp": 3,
-      "status": "active",
-      "method": "get",
-      "comment": "Sample comment for item 3"
-    }
-  ],
+  "measurements": [],
   "fieldTrips": [
     {
       "id": 1,
@@ -173,7 +145,6 @@
     },
     {
       "id": 3,
-
       "location": {
         "name": "Finances Ave"
       },
@@ -412,6 +383,139 @@
       "refernceDatum": "Sed Do",
       "isPrimary": true,
       "dateDecommissioned": "2024-11-30T20:45:00"
+    }
+  ],
+  "sensorReading": [
+    {
+      "id": 11,
+      "name": "Gage Height",
+      "reading": "0.38",
+      "uncertainty": "0.42",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "readingType": "Lorem",
+      "dateTime": "2024-02-28T12:00:00"
+    },
+    {
+      "id": 12,
+      "name": "Water Temperature",
+      "reading": "12.5",
+      "uncertainty": "0.3",
+      "comment": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "readingType": "Sed",
+      "dateTime": "2024-03-10T08:30:00"
+    },
+    {
+      "id": 13,
+      "name": "Wind Speed",
+      "reading": "15.2",
+      "uncertainty": "1.1",
+      "comment": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+      "readingType": "At",
+      "dateTime": "2024-03-15T15:45:00"
+    },
+    {
+      "id": 14,
+      "name": "Air Pressure",
+      "reading": "1013.2",
+      "uncertainty": "0.8",
+      "comment": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "readingType": "Neque",
+      "dateTime": "2024-03-20T10:20:00"
+    },
+    {
+      "reading": "0.39",
+      "id": 15
+    },
+    {
+      "reading": "0.38",
+      "id": 16
+    },
+    {
+      "reading": ".39",
+      "id": 17
+    },
+    {
+      "reading": ".39",
+      "id": 18
+    },
+    {
+      "reading": ".39",
+      "id": 19
+    },
+    {
+      "reading": "adfsdf",
+      "id": 20
+    },
+    {
+      "reading": "asdxsd",
+      "id": 21
+    },
+    {
+      "reading": "bnvbnv",
+      "id": 22
+    },
+    {
+      "reading": "bnvbnv",
+      "id": 23
+    },
+    {
+      "reading": "dsfasd",
+      "id": 24
+    },
+    {
+      "reading": "dsfasd",
+      "id": 25
+    },
+    {
+      "reading": "bnvbnv",
+      "id": 26
+    },
+    {
+      "reading": "6.4",
+      "id": 27
+    },
+    {
+      "reading": "6.4",
+      "id": 28
+    },
+    {
+      "reading": "6.4",
+      "id": 29
+    },
+    {
+      "reading": ".38",
+      "id": 30
+    },
+    {
+      "reading": "bnvbnv",
+      "id": 31
+    },
+    {
+      "reading": ".38",
+      "id": 32
+    },
+    {
+      "reading": ".38",
+      "Time": "2024-03-21T05:00:00.000Z",
+      "id": 33
+    },
+    {
+      "date": "2024-03-22T05:00:00.000Z",
+      "Time": "2024-03-21T05:00:00.000Z",
+      "reading": ".38",
+      "readingType": "2",
+      "uncertainty": ".3",
+      "comment": "this is aj;dsfbadsabf",
+      "id": 34
+    },
+    {
+      "date": "2024-03-22T05:00:00.000Z",
+      "Time": "2024-03-21T05:05:00.000Z",
+      "reading": ".38",
+      "readingType": "2",
+      "uncertainty": "bncvbnbn",
+      "comment": "dsafysidfgsdubfsadl",
+      "id": 35
     }
   ]
 }
