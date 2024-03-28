@@ -401,5 +401,24 @@
       "isPrimary": true,
       "dateDecommissioned": "2024-11-30T20:45:00"
     }
+  ],  "sensorReading": [
+    {
+      "date": "2024-03-25T05:00:00.000Z",
+      "Time": "2024-03-23T05:05:00.000Z",
+      "reading": ".3",
+      "readingType": "1",
+      "uncertainty": ".6",
+      "comment": "This is a test",
+      "id": 1
+    },
+    {
+      "date": "2024-03-20T05:00:00.000Z",
+      "Time": "2024-03-23T05:10:00.000Z",
+      "reading": ".26",
+      "readingType": "2",
+      "uncertainty": ".44",
+      "comment": "Second test",
+      "id": 2
+    }
   ]
 }
