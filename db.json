@@ -1,19 +1,86 @@
 {
-  "measurements": [],
-  "fieldTrips": [
+  "FieldTrips": [
     {
       "id": 1,
       "location": {
         "name": "The Bricks"
       },
-      "fieldVisits": [
+      "FieldVisits": [
         {
           "id": 1,
-          "status": "Warning",
-          "location": "123 Main Street, Cityville, State",
-          "dateTime": "2024-01-15T12:30:00",
-          "comment": "High temperature detected",
-          "party": "lflight",
+          "FieldVisitId": "513bfa4116012e92e0530100007fc260",
+          "LocationId": "7373001",
+          "LocationName": "Big Creek at Pollock",
+          "CollectorUserId": "workerx",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-03-23T21:50:00.000Z",
+          "EndDateTime": "2024-03-23T21:50:00.000Z",
+          "WeatherConditions": "sunny, calm, warm, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Right Bank",
+              "DateTime": "2024-03-23T21:50:00.000Z",
+              "Comment": "sensor needs recalibration",
+              "MetaTags": "sensor needs recalibration"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ecd",
+              "Name": "Right bank sensor",
+              "SubLocationId": "Right Bank",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc260",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21094,
+              "SerialNumber": "P-0246",
+              "LastInventoryDate": "2024-03-23T21:50:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-03-23T21:50:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2017-08-21T18:32:00Z",
+                "Value": 10.5,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc260",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workery",
+                  "Elevation": 3.6,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2017-08-21T18:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          },
           "activities": [
             {
               "activityName": "Weather Details",
@@ -55,52 +122,6 @@
               ]
             }
           ]
-        },
-        {
-          "id": 2,
-          "status": "Success",
-          "location": "456 Oak Avenue, Townsville, State",
-          "dateTime": "2024-01-16T03:45:00",
-          "comment": "Backup completed successfully",
-          "party": "lflight",
-          "activities": [
-            {
-              "activityName": "Miscellaneous Information",
-              "tasks": [
-                {
-                  "title": "Review Items",
-                  "status": ""
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "status": "Refresh",
-          "location": "789 Pine Road, Villagetown, State",
-          "dateTime": "2024-01-17T08:00:00",
-          "comment": "Data refreshed for the day",
-          "party": "lflight",
-          "activities": [
-            {
-              "activityName": "Groundwater Levels",
-              "tasks": [
-                {
-                  "title": "Measurement Point",
-                  "status": "completed"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "status": "Process",
-          "location": "101 Cedar Lane, Boroughburg, State",
-          "dateTime": "2024-01-18T15:20:00",
-          "comment": "Processing new orders",
-          "party": "lflight"
         }
       ]
     },
@@ -109,79 +130,320 @@
       "location": {
         "name": "Junction Drop"
       },
-      "fieldVisits": [
+      "FieldVisits": [
         {
-          "id": 51,
-          "status": "Warning",
-          "location": "555 Elm Street, Hamletsville, State",
-          "dateTime": "2024-02-10T14:45:00",
-          "comment": "System error detected",
-          "party": "DJones"
-        },
-        {
-          "id": 52,
-          "status": "Refresh",
-          "location": "777 Birch Avenue, Villageland, State",
-          "dateTime": "2024-02-11T09:30:00",
-          "comment": "Dashboard updated",
-          "party": "DJones"
-        },
-        {
-          "id": 70,
-          "status": "Process",
-          "location": "999 Pine Lane, Boroughville, State",
-          "dateTime": "2024-03-02T17:15:00",
-          "comment": "Order fulfillment in progress",
-          "party": "DJones"
-        },
-        {
-          "id": 11,
-          "status": "Warning",
-          "location": "123 Main Street, Cityville, State",
-          "dateTime": "2024-01-15T12:30:00",
-          "comment": "High temperature detected",
-          "party": "DJones"
+          "id": 2,
+          "FieldVisitId": "513bfa4116012e92e0530100007fc261",
+          "LocationId": "7373002",
+          "LocationName": "Little Creek at Riverside",
+          "CollectorUserId": "workery",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-04-10T15:25:00.000Z",
+          "EndDateTime": "2024-04-10T15:25:00.000Z",
+          "WeatherConditions": "overcast, calm, cool, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Center",
+              "DateTime": "2024-04-10T15:25:00.000Z",
+              "Comment": "reading stable",
+              "MetaTags": "reading stable"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ece",
+              "Name": "Center sensor",
+              "SubLocationId": "Center",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc261",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21095,
+              "SerialNumber": "P-0247",
+              "LastInventoryDate": "2024-04-10T15:25:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-04-10T15:25:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2017-09-21T16:32:00Z",
+                "Value": 10.75,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc261",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workerx",
+                  "Elevation": 3.7,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2017-09-21T16:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
         },
         {
           "id": 12,
-          "status": "Success",
-          "location": "456 Oak Avenue, Townsville, State",
-          "dateTime": "2024-01-16T03:45:00",
-          "comment": "Backup completed successfully",
-          "party": "DJones"
+
+          "FieldVisitId": "513bfa4116012e92e0530100007fc262",
+          "LocationId": "7373003",
+          "LocationName": "Little Creek at Riverside",
+          "CollectorUserId": "workerx",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-05-15T12:00:00.000Z",
+          "EndDateTime": "2024-05-15T12:00:00.000Z",
+          "WeatherConditions": "rainy, calm, cool, heavy precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Left Bank",
+              "DateTime": "2024-05-15T12:00:00.000Z",
+              "Comment": "sensor submerged",
+              "MetaTags": "sensor submerged"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ecf",
+              "Name": "Left bank sensor",
+              "SubLocationId": "Left Bank",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc262",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21096,
+              "SerialNumber": "P-0248",
+              "LastInventoryDate": "2024-05-15T12:00:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-05-15T12:00:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2017-10-21T14:32:00Z",
+                "Value": 11.0,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc262",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workerx",
+                  "Elevation": 3.8,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2017-10-21T14:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 24,
+
+          "FieldVisitId": "513bfa4116012e92e0530100007fc268",
+          "LocationId": "7373009",
+          "LocationName": "Little Creek at Riverside",
+          "CollectorUserId": "workery",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-11-12T10:00:00.000Z",
+          "EndDateTime": "2024-11-12T10:00:00.000Z",
+          "WeatherConditions": "sunny, calm, warm, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Right Bank",
+              "DateTime": "2024-11-12T10:00:00.000Z",
+              "Comment": "sensor showing stable levels",
+              "MetaTags": "sensor showing stable levels"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ed5",
+              "Name": "Right bank sensor",
+              "SubLocationId": "Right Bank",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc268",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21102,
+              "SerialNumber": "P-0254",
+              "LastInventoryDate": "2024-11-12T10:00:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-11-12T10:00:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2018-04-21T12:32:00Z",
+                "Value": 12.5,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc268",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workerx",
+                  "Elevation": 4.4,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2018-04-21T12:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
         }
       ]
     },
     {
       "id": 3,
-
       "location": {
         "name": "Finances Ave"
       },
-      "fieldVisits": [
+      "FieldVisits": [
         {
-          "id": 13,
-          "status": "Refresh",
-          "location": "789 Pine Road, Villagetown, State",
-          "dateTime": "2024-01-17T08:00:00",
-          "comment": "Data refreshed for the day",
-          "party": "AField"
-        },
-        {
-          "id": 14,
-          "status": "Process",
-          "location": "101 Cedar Lane, Boroughburg, State",
-          "dateTime": "2024-01-18T15:20:00",
-          "comment": "Processing new orders",
-          "party": "AField"
-        },
-        {
-          "id": 61,
-          "status": "Warning",
-          "location": "222 Elm Street, Suburbia, State",
-          "dateTime": "2024-03-10T14:45:00",
-          "comment": "Network issue detected",
-          "party": "AField"
+          "id": 8,
+          "FieldVisitId": "513bfa4116012e92e0530100007fc263",
+          "LocationId": "7373004",
+          "LocationName": "Big Creek at Pollock",
+          "CollectorUserId": "workerx",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-06-10T10:00:00.000Z",
+          "EndDateTime": "2024-06-10T10:00:00.000Z",
+          "WeatherConditions": "partly cloudy, windy, warm, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Right Bank",
+              "DateTime": "2024-06-10T10:00:00.000Z",
+              "Comment": "sensor seems stable",
+              "MetaTags": "sensor seems stable"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ed0",
+              "Name": "Right bank sensor",
+              "SubLocationId": "Right Bank",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc263",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21097,
+              "SerialNumber": "P-0249",
+              "LastInventoryDate": "2024-06-10T10:00:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-06-10T10:00:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2017-11-21T15:32:00Z",
+                "Value": 11.25,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc263",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workery",
+                  "Elevation": 3.9,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2017-11-21T15:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
         }
       ]
     },
@@ -190,22 +452,159 @@
       "location": {
         "name": "Water Park at Nine Station"
       },
-      "fieldVisits": [
+      "FieldVisits": [
         {
-          "id": 62,
-          "status": "Success",
-          "location": "888 Oak Avenue, Countryside, State",
-          "dateTime": "2024-03-12T09:30:00",
-          "comment": "Task completed successfully",
-          "party": "AField"
+          "id": 16,
+          "FieldVisitId": "513bfa4116012e92e0530100007fc264",
+          "LocationId": "7373005",
+          "LocationName": "Big Creek at Pollock",
+          "CollectorUserId": "workerx",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-07-05T08:00:00.000Z",
+          "EndDateTime": "2024-07-05T08:00:00.000Z",
+          "WeatherConditions": "sunny, calm, hot, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Center",
+              "DateTime": "2024-07-05T08:00:00.000Z",
+              "Comment": "sensor shows higher than expected levels",
+              "MetaTags": "sensor shows higher than expected levels"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ed1",
+              "Name": "Center sensor",
+              "SubLocationId": "Center",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc264",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21098,
+              "SerialNumber": "P-0250",
+              "LastInventoryDate": "2024-07-05T08:00:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-07-05T08:00:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2017-12-21T17:32:00Z",
+                "Value": 11.5,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc264",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workerx",
+                  "Elevation": 4.0,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2017-12-21T17:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
         },
         {
-          "id": 80,
-          "status": "Refresh",
-          "location": "444 Birch Lane, Meadowville, State",
-          "dateTime": "2024-04-05T09:30:00",
-          "comment": "Data refresh scheduled",
-          "party": "AField"
+          "id": 23,
+
+          "FieldVisitId": "513bfa4116012e92e0530100007fc265",
+          "LocationId": "7373006",
+          "LocationName": "Little Creek at Riverside",
+          "CollectorUserId": "workery",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-08-02T11:15:00.000Z",
+          "EndDateTime": "2024-08-02T11:15:00.000Z",
+          "WeatherConditions": "sunny, calm, hot, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Left Bank",
+              "DateTime": "2024-08-02T11:15:00.000Z",
+              "Comment": "sensor stable",
+              "MetaTags": "sensor stable"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ed2",
+              "Name": "Left bank sensor",
+              "SubLocationId": "Left Bank",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc265",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21099,
+              "SerialNumber": "P-0251",
+              "LastInventoryDate": "2024-08-02T11:15:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-08-02T11:15:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2018-01-21T18:32:00Z",
+                "Value": 11.75,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc265",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workery",
+                  "Elevation": 4.1,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2018-01-21T18:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
         }
       ]
     },
@@ -214,22 +613,159 @@
       "location": {
         "name": "Alief Bayou District"
       },
-      "fieldVisits": [
+      "FieldVisits": [
         {
-          "id": 18,
-          "status": "Success",
-          "location": "126 Alief Drive",
-          "dateTime": "2024-03-12T09:30:00",
-          "comment": "Task completed successfully",
-          "party": "AField"
+          "id": 51,
+          "FieldVisitId": "513bfa4116012e92e0530100007fc266",
+          "LocationId": "7373007",
+          "LocationName": "Big Creek at Pollock",
+          "CollectorUserId": "workerx",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-09-01T09:30:00.000Z",
+          "EndDateTime": "2024-09-01T09:30:00.000Z",
+          "WeatherConditions": "cloudy, calm, cool, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Center",
+              "DateTime": "2024-09-01T09:30:00.000Z",
+              "Comment": "sensor readings within normal range",
+              "MetaTags": "sensor readings within normal range"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ed3",
+              "Name": "Center sensor",
+              "SubLocationId": "Center",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc266",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21100,
+              "SerialNumber": "P-0252",
+              "LastInventoryDate": "2024-09-01T09:30:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-09-01T09:30:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2018-02-21T16:32:00Z",
+                "Value": 12.0,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc266",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workery",
+                  "Elevation": 4.2,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2018-02-21T16:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
         },
         {
-          "id": 75,
-          "status": "Refresh",
-          "location": "6975 Sulfur Street Road",
-          "dateTime": "2024-04-05T09:30:00",
-          "comment": "This task needs some more work to do",
-          "party": "AField"
+          "id": 52,
+
+          "FieldVisitId": "513bfa4116012e92e0530100007fc267",
+          "LocationId": "7373008",
+          "LocationName": "Little Creek at Riverside",
+          "CollectorUserId": "workery",
+          "CollectionAgency": "USGS",
+          "Party": "workerx, workery",
+          "StartDateTime": "2024-10-15T14:00:00.000Z",
+          "EndDateTime": "2024-10-15T14:00:00.000Z",
+          "WeatherConditions": "sunny, calm, warm, no precip",
+          "CompletedRecorderData": true,
+          "CompletedSafetyInspection": true,
+          "CompletedOtherSample": true,
+          "Inspections": [
+            {
+              "ActivityType": "BasicInspection",
+              "SubLocation": "Left Bank",
+              "DateTime": "2024-10-15T14:00:00.000Z",
+              "Comment": "sensor shows normal readings",
+              "MetaTags": "sensor shows normal readings"
+            }
+          ],
+          "SensorReadings": {
+            "ActivityType": "BasicInspection",
+            "Sensor": {
+              "SensorId": "ec3bee83ec824b6981173bba98cd6ed4",
+              "Name": "Left bank sensor",
+              "SubLocationId": "Left Bank",
+              "SensorType": {
+                "Parameter": "Water level, depth LSD",
+                "ParameterId": "Wat_LVL_BLSD",
+                "ParameterUniqueId": "d13bfa4116012e92e0530100007fc267",
+                "MethodCode": "Wat_LVL_BLSDWLPTR",
+                "Method": "GW level, pressure transducer",
+                "UnitId": "ft",
+                "UnitName": "ft"
+              },
+              "DefaultReadingType": "Routine",
+              "AvailableInQuickEntry": true,
+              "AssignedToActivity": "QWMonitorInspection",
+              "ManufacturerName": "Sontek",
+              "ModelNumber": "6600",
+              "HIFEquipmentId": 21101,
+              "SerialNumber": "P-0253",
+              "LastInventoryDate": "2024-10-15T14:00:00.000Z",
+              "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+              "LastModifiedUTC": "2024-10-15T14:00:00.000Z"
+            },
+            "Readings": [
+              {
+                "DateTime": "2018-03-21T15:32:00Z",
+                "Value": 12.25,
+                "ReadingType": "RoutineBefore",
+                "GradeCode": 24,
+                "GradeName": "Unusable",
+                "Publish": true,
+                "ReadingDetails": {
+                  "ReferencePointId": "113bfa4116012e92e0530100007fc267",
+                  "Name": "Studies Section Sampling 2024",
+                  "Description": "workerx",
+                  "Elevation": 4.3,
+                  "ElevationFromLocalAssumedDatum": true,
+                  "StartingObject": false,
+                  "Type": "CkB",
+                  "LastSurveyDateTime": "2018-03-21T15:32:00Z",
+                  "MeasurementDirection": "FromTopToBottom"
+                },
+                "UseLocationDatumAsReference": true,
+                "Uncertainty": 0.03,
+                "ReadingQualifiers": "Above",
+                "AllowEmptyValues": true
+              }
+            ]
+          }
         }
       ]
     }
@@ -401,24 +937,39 @@
       "isPrimary": true,
       "dateDecommissioned": "2024-11-30T20:45:00"
     }
-  ],  "sensorReading": [
+  ],
+  "sensorReading": [
     {
+      "sensorName": "Gage Height",
       "date": "2024-03-25T05:00:00.000Z",
       "Time": "2024-03-23T05:05:00.000Z",
-      "reading": ".3",
+      "reading": 1.22,
       "readingType": "1",
-      "uncertainty": ".6",
-      "comment": "This is a test",
-      "id": 1
+      "uncertainty": 12,
+      "comment": "This is a test see change",
+      "name": "GH from DCP (ft)",
+      "id": 1,
+      "dateTime": null
     },
     {
+      "sensorName": "GW level",
       "date": "2024-03-20T05:00:00.000Z",
       "Time": "2024-03-23T05:10:00.000Z",
       "reading": ".26",
-      "readingType": "2",
+      "readingType": "1",
       "uncertainty": ".44",
       "comment": "Second test",
-      "id": 2
+      "name": "Pimary Reference (ft)",
+      "id": 2,
+      "dateTime": null,
+      "mp": 2,
+      "measurement": ".26",
+      "correction": -1
+    },
+    {
+      "sensorName": "Water level",
+      "id": 3,
+      "name": "Reference Point (ft)"
     }
   ]
 }
