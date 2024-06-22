@@ -7,7 +7,6 @@
       },
       "FieldVisits": [
         {
-          "id": 1,
           "FieldVisitId": "513bfa4116012e92e0530100007fc260",
           "LocationId": "7373001",
           "LocationName": "Big Creek at Pollock",
@@ -17,6 +16,7 @@
           "StartDateTime": "2024-03-23T21:50:00.000Z",
           "EndDateTime": "2024-03-23T21:50:00.000Z",
           "WeatherConditions": "sunny, calm, warm, no precip",
+          "Comments": "Data transmitted/recorded in depth below MP and still is in process blah blah",
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -83,6 +83,15 @@
           },
           "activities": [
             {
+              "activityName": "Comments",
+              "tasks": [
+                {
+                  "title": "Enter Comments",
+                  "status": "active"
+                }
+              ]
+            },
+            {
               "activityName": "Weather Details",
               "tasks": [
                 {
@@ -111,15 +120,6 @@
                   "status": ""
                 }
               ]
-            },
-            {
-              "activityName": "Weather Details",
-              "tasks": [
-                {
-                  "title": "Enter Weather Details",
-                  "status": "active"
-                }
-              ]
             }
           ]
         }
@@ -132,7 +132,6 @@
       },
       "FieldVisits": [
         {
-          "id": 2,
           "FieldVisitId": "513bfa4116012e92e0530100007fc261",
           "LocationId": "7373002",
           "LocationName": "Little Creek at Riverside",
@@ -142,6 +141,7 @@
           "StartDateTime": "2024-04-10T15:25:00.000Z",
           "EndDateTime": "2024-04-10T15:25:00.000Z",
           "WeatherConditions": "overcast, calm, cool, no precip",
+          "Comments": "Data transmitted/recorded in depth below MP until 12/14/2017",
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -205,11 +205,42 @@
                 "AllowEmptyValues": true
               }
             ]
-          }
+          },
+          "activities": [
+            {
+              "activityName": "Comments",
+              "tasks": [
+                {
+                  "title": "Enter Comments",
+                  "status": "active"
+                }
+              ]
+            },
+            {
+              "activityName": "Weather Details",
+              "tasks": [
+                {
+                  "title": "Enter Weather Details"
+                }
+              ]
+            },
+            {
+              "activityName": "Sensor Inspection",
+              "tasks": [
+                {
+                  "title": "Inspection",
+                  "status": "completed"
+                },
+                {
+                  "title": "Reading(s)",
+                  "status": "completed"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 12,
-
           "FieldVisitId": "513bfa4116012e92e0530100007fc262",
           "LocationId": "7373003",
           "LocationName": "Little Creek at Riverside",
@@ -219,6 +250,7 @@
           "StartDateTime": "2024-05-15T12:00:00.000Z",
           "EndDateTime": "2024-05-15T12:00:00.000Z",
           "WeatherConditions": "rainy, calm, cool, heavy precip",
+          "Comments": "Information captured and stored in detail beneath",
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -260,7 +292,7 @@
             "Readings": [
               {
                 "DateTime": "2017-10-21T14:32:00Z",
-                "Value": 11.0,
+                "Value": 11,
                 "ReadingType": "RoutineBefore",
                 "GradeCode": 24,
                 "GradeName": "Unusable",
@@ -286,7 +318,6 @@
         },
         {
           "id": 24,
-
           "FieldVisitId": "513bfa4116012e92e0530100007fc268",
           "LocationId": "7373009",
           "LocationName": "Little Creek at Riverside",
@@ -296,6 +327,7 @@
           "StartDateTime": "2024-11-12T10:00:00.000Z",
           "EndDateTime": "2024-11-12T10:00:00.000Z",
           "WeatherConditions": "sunny, calm, warm, no precip",
+          "Comments": "Data observed and registered meticulously below",
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -370,7 +402,6 @@
       },
       "FieldVisits": [
         {
-          "id": 8,
           "FieldVisitId": "513bfa4116012e92e0530100007fc263",
           "LocationId": "7373004",
           "LocationName": "Big Creek at Pollock",
@@ -380,6 +411,7 @@
           "StartDateTime": "2024-06-10T10:00:00.000Z",
           "EndDateTime": "2024-06-10T10:00:00.000Z",
           "WeatherConditions": "partly cloudy, windy, warm, no precip",
+          "Comments": "Information captured and documented in full below",
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -454,7 +486,6 @@
       },
       "FieldVisits": [
         {
-          "id": 16,
           "FieldVisitId": "513bfa4116012e92e0530100007fc264",
           "LocationId": "7373005",
           "LocationName": "Big Creek at Pollock",
@@ -464,6 +495,8 @@
           "StartDateTime": "2024-07-05T08:00:00.000Z",
           "EndDateTime": "2024-07-05T08:00:00.000Z",
           "WeatherConditions": "sunny, calm, hot, no precip",
+          "Comments": "Details recorded and saved extensively below",
+
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -514,7 +547,7 @@
                   "ReferencePointId": "113bfa4116012e92e0530100007fc264",
                   "Name": "Studies Section Sampling 2024",
                   "Description": "workerx",
-                  "Elevation": 4.0,
+                  "Elevation": 4,
                   "ElevationFromLocalAssumedDatum": true,
                   "StartingObject": false,
                   "Type": "CkB",
@@ -531,7 +564,6 @@
         },
         {
           "id": 23,
-
           "FieldVisitId": "513bfa4116012e92e0530100007fc265",
           "LocationId": "7373006",
           "LocationName": "Little Creek at Riverside",
@@ -541,6 +573,8 @@
           "StartDateTime": "2024-08-02T11:15:00.000Z",
           "EndDateTime": "2024-08-02T11:15:00.000Z",
           "WeatherConditions": "sunny, calm, hot, no precip",
+          "Comments": "Information noted and archived comprehensively underneath",
+
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -615,7 +649,6 @@
       },
       "FieldVisits": [
         {
-          "id": 51,
           "FieldVisitId": "513bfa4116012e92e0530100007fc266",
           "LocationId": "7373007",
           "LocationName": "Big Creek at Pollock",
@@ -625,6 +658,8 @@
           "StartDateTime": "2024-09-01T09:30:00.000Z",
           "EndDateTime": "2024-09-01T09:30:00.000Z",
           "WeatherConditions": "cloudy, calm, cool, no precip",
+          "Comments": "Information noted and archived comprehensively underneath",
+
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -666,7 +701,7 @@
             "Readings": [
               {
                 "DateTime": "2018-02-21T16:32:00Z",
-                "Value": 12.0,
+                "Value": 12,
                 "ReadingType": "RoutineBefore",
                 "GradeCode": 24,
                 "GradeName": "Unusable",
@@ -692,7 +727,6 @@
         },
         {
           "id": 52,
-
           "FieldVisitId": "513bfa4116012e92e0530100007fc267",
           "LocationId": "7373008",
           "LocationName": "Little Creek at Riverside",
@@ -702,6 +736,8 @@
           "StartDateTime": "2024-10-15T14:00:00.000Z",
           "EndDateTime": "2024-10-15T14:00:00.000Z",
           "WeatherConditions": "sunny, calm, warm, no precip",
+          "Comments": "Information noted and archived comprehensively underneath",
+
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -970,6 +1006,134 @@
       "sensorName": "Water level",
       "id": 3,
       "name": "Reference Point (ft)"
+    }
+  ],
+  "fieldvisits": [
+    {
+      "FieldVisitId": "513bfa4116012e92e0530100007fc260",
+      "LocationId": "7373001",
+      "LocationName": "Big Creek at Pollock",
+      "CollectorUserId": "workerx",
+      "CollectionAgency": "USGS",
+      "Party": "workerx, workery",
+      "StartDateTime": "2024-03-23T21:50:00.000Z",
+      "EndDateTime": "2024-03-23T21:50:00.000Z",
+      "WeatherConditions": "sunny, calm, warm, no precip",
+      "CompletedRecorderData": true,
+      "CompletedSafetyInspection": true,
+      "CompletedOtherSample": true,
+      "Inspections": [
+        {
+          "ActivityType": "BasicInspection",
+          "SubLocation": "Right Bank",
+          "DateTime": "2024-03-23T21:50:00.000Z",
+          "Comment": "sensor needs recalibration",
+          "MetaTags": "sensor needs recalibration"
+        }
+      ],
+      "SensorReadings": {
+        "ActivityType": "BasicInspection",
+        "Sensor": {
+          "SensorId": "ec3bee83ec824b6981173bba98cd6ecd",
+          "Name": "Right bank sensor",
+          "SubLocationId": "Right Bank",
+          "SensorType": {
+            "Parameter": "Water level, depth LSD",
+            "ParameterId": "Wat_LVL_BLSD",
+            "ParameterUniqueId": "d13bfa4116012e92e0530100007fc260",
+            "MethodCode": "Wat_LVL_BLSDWLPTR",
+            "Method": "GW level, pressure transducer",
+            "UnitId": "ft",
+            "UnitName": "ft"
+          },
+          "DefaultReadingType": "Routine",
+          "AvailableInQuickEntry": true,
+          "AssignedToActivity": "QWMonitorInspection",
+          "ManufacturerName": "Sontek",
+          "ModelNumber": "6600",
+          "HIFEquipmentId": 21094,
+          "SerialNumber": "P-0246",
+          "LastInventoryDate": "2024-03-23T21:50:00.000Z",
+          "Comment": "Data transmitted/recorded in depth below MP until 12/14/2017",
+          "LastModifiedUTC": "2024-03-23T21:50:00.000Z"
+        },
+        "Readings": [
+          {
+            "DateTime": "2017-08-21T18:32:00Z",
+            "Value": 10.5,
+            "ReadingType": "RoutineBefore",
+            "GradeCode": 24,
+            "GradeName": "Unusable",
+            "Publish": true,
+            "ReadingDetails": {
+              "ReferencePointId": "113bfa4116012e92e0530100007fc260",
+              "Name": "Studies Section Sampling 2024",
+              "Description": "workery",
+              "Elevation": 3.6,
+              "ElevationFromLocalAssumedDatum": true,
+              "StartingObject": false,
+              "Type": "CkB",
+              "LastSurveyDateTime": "2017-08-21T18:32:00Z",
+              "MeasurementDirection": "FromTopToBottom"
+            },
+            "UseLocationDatumAsReference": true,
+            "Uncertainty": 0.03,
+            "ReadingQualifiers": "Above",
+            "AllowEmptyValues": true
+          }
+        ]
+      },
+      "activities": [
+        {
+          "activityName": "Weather Details",
+          "tasks": [
+            {
+              "title": "Enter Weather Details"
+            }
+          ]
+        },
+        {
+          "activityName": "Sensor Inspection",
+          "tasks": [
+            {
+              "title": "Inspection",
+              "status": "completed"
+            },
+            {
+              "title": "Reading(s)",
+              "status": "completed"
+            }
+          ]
+        },
+        {
+          "activityName": "Miscellaneous Information",
+          "tasks": [
+            {
+              "title": "Review Items",
+              "status": ""
+            }
+          ]
+        },
+        {
+          "activityName": "Weather Details",
+          "tasks": [
+            {
+              "title": "Enter Weather Details",
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "this is a test"
+    },
+    {
+      "comment": "this is a test",
+      "id": 2
     }
   ]
 }
