@@ -7,7 +7,7 @@
       },
       "FieldVisits": [
         {
-          "FieldVisitId": "513bfa4116012e92e0530100007fc260",
+          "FieldVisitId": "113bfa4116012e92e0530100007fc260",
           "LocationId": "7373001",
           "LocationName": "Big Creek at Pollock",
           "CollectorUserId": "workerx",
@@ -132,7 +132,7 @@
       },
       "FieldVisits": [
         {
-          "FieldVisitId": "513bfa4116012e92e0530100007fc261",
+          "FieldVisitId": "213bfa4116012e92e0530100007fc261",
           "LocationId": "7373002",
           "LocationName": "Little Creek at Riverside",
           "CollectorUserId": "workery",
@@ -241,7 +241,7 @@
         },
         {
           "id": 12,
-          "FieldVisitId": "513bfa4116012e92e0530100007fc262",
+          "FieldVisitId": "313bfa4116012e92e0530100007fc262",
           "LocationId": "7373003",
           "LocationName": "Little Creek at Riverside",
           "CollectorUserId": "workerx",
@@ -318,7 +318,7 @@
         },
         {
           "id": 24,
-          "FieldVisitId": "513bfa4116012e92e0530100007fc268",
+          "FieldVisitId": "413bfa4116012e92e0530100007fc268",
           "LocationId": "7373009",
           "LocationName": "Little Creek at Riverside",
           "CollectorUserId": "workery",
@@ -402,7 +402,7 @@
       },
       "FieldVisits": [
         {
-          "FieldVisitId": "513bfa4116012e92e0530100007fc263",
+          "FieldVisitId": "713bfa4116012e92e0530100007fc263",
           "LocationId": "7373004",
           "LocationName": "Big Creek at Pollock",
           "CollectorUserId": "workerx",
@@ -486,7 +486,7 @@
       },
       "FieldVisits": [
         {
-          "FieldVisitId": "513bfa4116012e92e0530100007fc264",
+          "FieldVisitId": "613bfa4116012e92e0530100007fc264",
           "LocationId": "7373005",
           "LocationName": "Big Creek at Pollock",
           "CollectorUserId": "workerx",
@@ -496,7 +496,6 @@
           "EndDateTime": "2024-07-05T08:00:00.000Z",
           "WeatherConditions": "sunny, calm, hot, no precip",
           "Comments": "Details recorded and saved extensively below",
-
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -564,7 +563,7 @@
         },
         {
           "id": 23,
-          "FieldVisitId": "513bfa4116012e92e0530100007fc265",
+          "FieldVisitId": "813bfa4116012e92e0530100007fc265",
           "LocationId": "7373006",
           "LocationName": "Little Creek at Riverside",
           "CollectorUserId": "workery",
@@ -574,7 +573,6 @@
           "EndDateTime": "2024-08-02T11:15:00.000Z",
           "WeatherConditions": "sunny, calm, hot, no precip",
           "Comments": "Information noted and archived comprehensively underneath",
-
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -649,7 +647,7 @@
       },
       "FieldVisits": [
         {
-          "FieldVisitId": "513bfa4116012e92e0530100007fc266",
+          "FieldVisitId": "913bfa4116012e92e0530100007fc266",
           "LocationId": "7373007",
           "LocationName": "Big Creek at Pollock",
           "CollectorUserId": "workerx",
@@ -659,7 +657,6 @@
           "EndDateTime": "2024-09-01T09:30:00.000Z",
           "WeatherConditions": "cloudy, calm, cool, no precip",
           "Comments": "Information noted and archived comprehensively underneath",
-
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -727,7 +724,7 @@
         },
         {
           "id": 52,
-          "FieldVisitId": "513bfa4116012e92e0530100007fc267",
+          "FieldVisitId": "A13bfa4116012e92e0530100007fc267",
           "LocationId": "7373008",
           "LocationName": "Little Creek at Riverside",
           "CollectorUserId": "workery",
@@ -737,7 +734,6 @@
           "EndDateTime": "2024-10-15T14:00:00.000Z",
           "WeatherConditions": "sunny, calm, warm, no precip",
           "Comments": "Information noted and archived comprehensively underneath",
-
           "CompletedRecorderData": true,
           "CompletedSafetyInspection": true,
           "CompletedOtherSample": true,
@@ -977,30 +973,13 @@
   "sensorReading": [
     {
       "sensorName": "Gage Height",
-      "date": "2024-03-25T05:00:00.000Z",
-      "Time": "2024-03-23T05:05:00.000Z",
-      "reading": 1.22,
-      "readingType": "1",
-      "uncertainty": 12,
-      "comment": "This is a test see change",
       "name": "GH from DCP (ft)",
-      "id": 1,
-      "dateTime": null
+      "id": 1
     },
     {
       "sensorName": "GW level",
-      "date": "2024-03-20T05:00:00.000Z",
-      "Time": "2024-03-23T05:10:00.000Z",
-      "reading": ".26",
-      "readingType": "1",
-      "uncertainty": ".44",
-      "comment": "Second test",
       "name": "Pimary Reference (ft)",
-      "id": 2,
-      "dateTime": null,
-      "mp": 2,
-      "measurement": ".26",
-      "correction": -1
+      "id": 2
     },
     {
       "sensorName": "Water level",
@@ -1010,7 +989,7 @@
   ],
   "fieldvisits": [
     {
-      "FieldVisitId": "513bfa4116012e92e0530100007fc260",
+      "FieldVisitId": "B13bfa4116012e92e0530100007fc260",
       "LocationId": "7373001",
       "LocationName": "Big Creek at Pollock",
       "CollectorUserId": "workerx",
@@ -1124,6 +1103,46 @@
           ]
         }
       ]
+    },
+    {
+      "fieldTripId": 2,
+      "StartDateTime": "2024-07-30",
+      "FieldVisitId": "new-visit-2-2024-07-30"
+    },
+    {
+      "fieldTripId": 1,
+      "StartDateTime": "2024-07-30",
+      "FieldVisitId": "new-visit-1-2024-07-30"
+    },
+    {
+      "fieldTripId": 1,
+      "StartDateTime": "2024-07-30",
+      "FieldVisitId": "new-visit-1-2024-07-30-13-58-20"
+    },
+    {
+      "fieldTripId": 1,
+      "StartDateTime": "2024-07-30",
+      "FieldVisitId": "new-visit-1-2024-07-30-13-59-36"
+    },
+    {
+      "fieldTripId": 1,
+      "StartDateTime": "2024-07-30",
+      "FieldVisitId": "new-visit-1-2024-07-30-13-59-47"
+    },
+    {
+      "fieldTripId": 1,
+      "StartDateTime": "2024-07-30",
+      "FieldVisitId": "new-visit-1-2024-07-30-14-00-44"
+    },
+    {
+      "fieldTripId": 1,
+      "StartDateTime": "2024-07-31",
+      "FieldVisitId": "new-visit-1-2024-07-31-10-48-24"
+    },
+    {
+      "fieldTripId": 1,
+      "StartDateTime": "2024-07-31",
+      "FieldVisitId": "new-visit-1-2024-07-31-10-51-18"
     }
   ],
   "comments": [
