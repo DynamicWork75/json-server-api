@@ -138,7 +138,7 @@
         {
           "FieldVisitId": "213bfa4116012e92e0530100007fc261",
           "LocationId": "7373002",
-          "LocationName": "Little Creek at Riverside",
+          "LocationName": "Savy Road",
           "CollectorUserId": "workery",
           "CollectionAgency": "USGS",
           "Party": "workerx, workery",
@@ -237,6 +237,10 @@
                 },
                 {
                   "title": "Reading(s)",
+                  "status": "completed"
+                },
+                {
+                  "title": "Wire Weight",
                   "status": "completed"
                 }
               ]
