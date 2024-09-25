@@ -109,6 +109,10 @@
                 {
                   "title": "Reading(s)",
                   "status": "completed"
+                },
+                {
+                  "title": "Wire Weight Gage",
+                  "status": "completed"
                 }
               ]
             },
@@ -989,7 +993,7 @@
   ],
   "fieldvisits": [
     {
-      "FieldVisitId": "B13bfa4116012e92e0530100007fc260",
+      "FieldVisitId": "113bfa4116012e92e0530100007fc260",
       "LocationId": "7373001",
       "LocationName": "Big Creek at Pollock",
       "CollectorUserId": "workerx",
